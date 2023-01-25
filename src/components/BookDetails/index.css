@@ -1,0 +1,261 @@
+@media (min-width: 361px) {
+  .book-detail-page {
+    background: #f5f7fa;
+    width: 100vw;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-details-card {
+    height: 726px;
+    width: 1140px;
+    left: 150px;
+    top: 153px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .book-cover-detail {
+    height: 274px;
+    width: 235px;
+
+    border-radius: 14.130910873413086px;
+  }
+
+  .book-title-detail {
+    color: #334155;
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .book-author-name-detail {
+    color: #475569;
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .rating-detail {
+    color: #475569;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .status-detail {
+    color: #475569;
+    margin-top: -10px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .rating-section-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 190px;
+    margin-top: -29px;
+    margin-left: -7px;
+  }
+  .read-status-detail {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: -7px;
+    color: #0284c7;
+  }
+  .book-item-detail {
+    display: flex;
+  }
+  .book-right-details-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 48px;
+  }
+  .book-detail-hr {
+    height: 0px;
+    width: 1012px;
+    border: 1px solid #94a3b8;
+    margin-top: 32px;
+  }
+  .about-author {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #334155;
+    font-style: normal;
+    align-self: flex-start;
+    padding-left: 64px;
+  }
+  .about-author-desc {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    font-style: normal;
+    padding-left: 64px;
+    margin-top: 0px;
+  }
+  .loader-container-detail,
+  .failure-container-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .book-detail-page {
+    background: #f5f7fa;
+    width: 100vw;
+    height: 100%;
+  }
+  .book-cover-detail {
+    height: 274px;
+    width: 235px;
+    border-radius: 12px;
+    margin-top: 24px;
+  }
+  .book-details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+  }
+  .book-title-detail {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #334155;
+  }
+  .book-right-details-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-author-name-detail {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    margin-top: -10px;
+    font-style: normal;
+  }
+  .rating-section-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    margin-top: -24px;
+    margin-left: -7px;
+  }
+  .rating-detail {
+    color: #475569;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-style: normal;
+  }
+  .status-detail {
+    color: #475569;
+    margin-top: -10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .read-status-detail {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0284c7;
+    font-style: normal;
+  }
+  .about-author {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #334155;
+    font-style: normal;
+    align-self: flex-start;
+    padding-left: 24px;
+  }
+  .about-author-desc {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    font-style: normal;
+
+    margin-top: -5px;
+
+    width: 312px;
+  }
+  .book-detail-hr {
+    height: 0px;
+    width: 312px;
+    border: 0.5px solid #94a3b8;
+  }
+  .loader-container-detail,
+  .failure-container-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+}

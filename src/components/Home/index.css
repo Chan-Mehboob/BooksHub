@@ -1,0 +1,121 @@
+@media (min-width: 361px) {
+  .home-page {
+    height: 1024px;
+    width: 100vw;
+    left: 6356px;
+    top: 9322px;
+    border-radius: 0px;
+    background: #f5f7fa;
+  }
+  .home-body-heading {
+    height: 64px;
+    width: 601px;
+    left: 100px;
+    top: 110px;
+    position: absolute;
+    color: #1e293b;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 600;
+  }
+  .home-body-desc {
+    height: 64px;
+    width: 998px;
+    left: 100px;
+    top: 213px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    position: absolute;
+    margin-top: -5px;
+    font-style: normal;
+  }
+  .react-slick-container {
+    height: 424px;
+    width: 1240px;
+    left: 100px;
+    top: 309px;
+    border-radius: 16px;
+    position: absolute;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+    background: #ffffff;
+  }
+  .find-books-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .home-page {
+    width: 360px;
+    left: 4096px;
+    height: 645px;
+    top: 12042px;
+    border-radius: 0px;
+    background: #f5f7fa;
+  }
+  .home-body-heading {
+    height: 32px;
+    width: 312px;
+    left: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #1e293b;
+    padding-left: 24px;
+    padding-top: 8px;
+  }
+  .home-body-desc {
+    height: 96px;
+    width: 312px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+  }
+  .find-books-btn {
+    height: 36px;
+    width: 104px;
+    left: 24px;
+    top: 232px;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    background: #0284c7;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f8fafc;
+    cursor: pointer;
+    border-width: 0px;
+  }
+  .react-slick-container {
+    background: #ffffff;
+    box-shadow: 0px 0px 0.443396px rgba(40, 41, 61, 0.08),
+      0px 0.443396px 0.886792px rgba(96, 97, 112, 0.16);
+    height: 210px;
+    width: 360px;
+    left: 0px;
+    top: 284px;
+    border-radius: 0px;
+    position: absolute;
+  }
+}

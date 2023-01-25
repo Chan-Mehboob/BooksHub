@@ -1,0 +1,322 @@
+@media (min-width: 361px) {
+  .shelf-page {
+    background: #f5f7fa;
+    width: 1440px;
+    height: 3100px;
+  }
+  .shelf-body {
+    background: #f5f7fa;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .shelf-left {
+    height: 1176px;
+    width: 256px;
+    left: 150px;
+    top: 137px;
+    border-radius: 0px;
+    background: #ffffff;
+    position: absolute;
+  }
+
+  .shelf-left-heading {
+    height: 32px;
+    width: 124px;
+    left: 32px;
+    top: 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #334155;
+    position: absolute;
+    font-style: normal;
+  }
+  .bookshelves-list {
+    top: 70px;
+    position: absolute;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    list-style-type: none;
+    margin-left: -10px;
+    font-style: normal;
+  }
+  .item {
+    padding-bottom: 8px;
+    color: #475569;
+  }
+  button {
+    cursor: pointer;
+    background: transparent;
+    border-width: 0px;
+  }
+  .shelf-right-heading {
+    height: 22px;
+
+    left: 438px;
+    top: 140px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #334155;
+    position: absolute;
+  }
+  .search-section {
+    height: 36px;
+    width: 264px;
+    left: 1026px;
+    top: 144px;
+    border-radius: 0px;
+    display: flex;
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-box {
+    height: 36.000999450683594px;
+    width: 264px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    padding: 6px 16px 6px 16px;
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .search-btn {
+    height: 19px;
+    width: 20px;
+    left: 211px;
+
+    position: absolute;
+    background: #edeff1;
+    height: 34px;
+    width: 52px;
+
+    border-radius: 0px 4px 4px 0px;
+    color: #cbd5e1;
+    color: #94a3b8;
+  }
+  .books-list {
+    left: 390px;
+    top: 197px;
+    list-style-type: none;
+    position: absolute;
+  }
+  .books-bg {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f5f7fa;
+    height: 100%;
+    list-style-type: none;
+  }
+
+  .loader-container-shelves,
+  .failure-container-shelves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vw;
+  }
+
+  .search-section-mobile {
+    display: none;
+  }
+  .active-left-tab {
+    color: #0284c7;
+  }
+  .no-books-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+  }
+  .no-books-img {
+    height: 327.0318908691406px;
+    width: 476.02880859375px;
+  }
+  .no-books-desc {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #334155;
+  }
+}
+
+@media (max-width: 360px) {
+  .shelf-page {
+    background: #f5f7fa;
+    width: 100vw;
+    height: 100%;
+  }
+  .search-section-mobile {
+    height: 36px;
+    width: 294px;
+    left: 24px;
+    top: 80px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+
+    align-self: stretch;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    background: #ffffff;
+    height: 36px;
+    width: 264px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    border: 1px solid #cbd5e1;
+  }
+  .search-section {
+    display: none;
+  }
+  .search-box {
+    height: 36px;
+    width: 294px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+
+    background: #ffffff;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border: 1px solid #cbd5e1;
+    border-left: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 8px;
+  }
+  .search-btn {
+    left: 211px;
+    top: 0px;
+    background: #edeff1;
+    height: 34px;
+    width: 52px;
+
+    border-radius: 0px 4px 4px 0px;
+    color: #94a3b8;
+    border-width: 0px;
+    cursor: pointer;
+  }
+  .shelf-left-heading {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .bookshelves-list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-top: 0px;
+  }
+  .item {
+    color: #0284c7;
+    border: 1px solid #0284c7;
+    border-radius: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 4px 15px 4px 15px;
+    margin: 6px;
+    font-weight: 600;
+  }
+  .shelf-right-heading {
+    display: none;
+  }
+  .books-list {
+    list-style-type: none;
+  }
+  .books-bg {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f5f7fa;
+    height: 100%;
+    margin-left: -57px;
+    list-style-type: none;
+  }
+  .active-left-tab {
+    background: #0284c7;
+    color: #f8fafc;
+  }
+  .no-books-img {
+    height: 176.01654052734375px;
+    width: 257.0172424316406px;
+  }
+  .no-books-desc {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #475569;
+    width: 240px;
+    height: 48px;
+  }
+  .no-books-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+  }
+  .loader-container-shelves,
+  .failure-container-shelves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 80vw;
+  }
+}

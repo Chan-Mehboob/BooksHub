@@ -1,0 +1,157 @@
+@media (min-width: 361px) {
+  .book-cover {
+    height: 155px;
+    width: 133px;
+    border-radius: 8px;
+  }
+  .book-item {
+    display: flex;
+
+    margin: 10px;
+    width: 450px;
+  }
+  .book-right-details {
+    border-radius: 1px;
+    padding-left: 16px;
+    height: 155px;
+  }
+  .book-title {
+    width: 146px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #334155;
+    margin-top: 0px;
+  }
+  .book-author-name {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    margin-top: -0px;
+  }
+  .rating {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+  }
+  .status {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    margin-top: -7px;
+  }
+  .rating-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -7px;
+  }
+  .read-status {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: -7px;
+    color: #0284c7;
+  }
+  .link {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .book-item {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .book-cover {
+    height: 155px;
+    width: 143px;
+    left: 24px;
+    top: 260px;
+    border-radius: 8px;
+  }
+  .book-right-details {
+    padding-left: 16px;
+    width: 146px;
+  }
+  .book-title {
+    width: 146px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #334155;
+    margin-top: 0px;
+  }
+  .book-author-name {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    margin-top: -0px;
+  }
+  .rating {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+  }
+  .status {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #475569;
+    margin-top: -7px;
+  }
+  .rating-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: -20px;
+  }
+  .read-status {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: -7px;
+    color: #0284c7;
+  }
+  .link {
+    text-decoration: none;
+  }
+}

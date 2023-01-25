@@ -1,0 +1,357 @@
+@media (min-width: 361px) {
+  .login-page {
+    height: 1024px;
+    width: 1440px;
+    left: 3176px;
+    top: 9322px;
+    border-radius: 0px;
+
+    background: #f8fafc;
+  }
+  .website-login-desktop {
+    height: 1024px;
+    width: 780px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+  }
+  .website-login {
+    display: none;
+  }
+  .login-card {
+    height: 484px;
+    width: 499px;
+    left: 852px;
+    top: 170px;
+    border-radius: 0px;
+    background: #ffffff;
+    position: absolute;
+  }
+  .label-name {
+    height: 19px;
+    width: 88px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    left: 0%;
+    right: 75.56%;
+    top: calc(50% - 19px / 2 - 32.5px);
+    color: #5a7184;
+  }
+  .input-section {
+    height: 90px;
+    width: 360px;
+    border-radius: 0px;
+
+    position: absolute;
+
+    right: 11.04%;
+    top: 144px;
+    bottom: 50.78%;
+  }
+  .input {
+    height: 56px;
+    width: 360px;
+    left: 20px;
+    top: 34px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.78%;
+
+    bottom: 0%;
+    border: 1px solid #c3cad9;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Inter';
+    color: #183b56;
+    font-style: normal;
+  }
+  .input-section2 {
+    height: 90px;
+    width: 360px;
+
+    top: 528px;
+    border-radius: 0px;
+    position: absolute;
+
+    right: 11.04%;
+    top: 51.56%;
+    bottom: 39.65%;
+  }
+  .label-name2 {
+    height: 19px;
+    width: 85px;
+    left: 0px;
+    top: 3px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    top: calc(50% - 19px / 2 - 32.5px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5a7184;
+  }
+  .input2 {
+    height: 56px;
+    width: 360px;
+    left: 0px;
+    top: 34px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.78%;
+
+    bottom: 0%;
+    border: 1px solid #c3cad9;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Inter';
+    color: #183b56;
+    font-style: normal;
+  }
+  .login-btn {
+    height: 56px;
+    width: 360px;
+    cursor: pointer;
+    top: 380px;
+    bottom: 48px;
+
+    position: absolute;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #0284c7;
+
+    color: #ffffff;
+    border-width: 0px;
+    right: 11.04%;
+  }
+  .login-logo-desktop {
+    height: 47.99907684326172px;
+    width: 141px;
+    left: 179px;
+    top: 48px;
+    border-radius: 0px;
+    position: absolute;
+    height: 48px;
+  }
+  .login-logo {
+    display: none;
+  }
+  .error-message {
+    display: none;
+  }
+  .error-message-desktop {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ef4444;
+    font-family: 'Inter';
+    text-align: left;
+    position: absolute;
+    width: 215px;
+    height: 17px;
+    top: 330px;
+    right: 200px;
+
+    bottom: 32px;
+  }
+}
+
+@media (max-width: 360px) {
+  .login-page {
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+  }
+  .website-login {
+    height: 216px;
+    width: 216px;
+    left: 72px;
+    top: 32px;
+    position: absolute;
+  }
+  .website-login-desktop {
+    display: none;
+  }
+  .login-logo {
+    height: 28px;
+    width: 104px;
+    left: 128px;
+    top: 264px;
+    border-radius: 0px;
+    position: absolute;
+  }
+  .login-logo-desktop {
+    display: none;
+  }
+  .input-section {
+    position: absolute;
+    left: 6.67%;
+    right: 6.67%;
+    top: 50.62%;
+    bottom: 35.31%;
+  }
+  .label-name {
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    left: 0%;
+    right: 69.87%;
+    top: calc(50% - 19px / 2 - 32.5px);
+
+    color: #5a7184;
+  }
+  .input {
+    height: 56px;
+    width: 312px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.78%;
+
+    bottom: 0%;
+    border: 1px solid #c3cad9;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Inter';
+    color: #183b56;
+    font-style: normal;
+  }
+  .input-section2 {
+    position: absolute;
+    left: 6.67%;
+    right: 6.67%;
+    top: 67.19%;
+
+    bottom: 35.31%;
+  }
+  .label-name2 {
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    left: 0%;
+    right: 71.79%;
+
+    top: calc(50% - 19px / 2 - 32.5px);
+
+    color: #5a7184;
+  }
+  .input2 {
+    height: 56px;
+    width: 312px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 34px;
+
+    bottom: 0%;
+    border: 1px solid #c3cad9;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Inter';
+    color: #183b56;
+    font-style: normal;
+  }
+  .login-btn {
+    height: 40px;
+    width: 312px;
+
+    top: 544px;
+    bottom: 48px;
+    left: 24px;
+
+    position: absolute;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #0284c7;
+
+    color: #ffffff;
+    border-width: 0px;
+    right: 11.04%;
+    cursor: pointer;
+  }
+  .error-message {
+    font-family: 'HK Grotesk';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ef4444;
+    height: 18px;
+    width: 400px;
+    position: absolute;
+    bottom: 24px;
+    top: 510px;
+    left: 24px;
+  }
+  .error-message-desktop {
+    display: none;
+  }
+}

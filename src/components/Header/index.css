@@ -1,0 +1,167 @@
+@media (min-width: 361px) {
+  .nav-header {
+    height: 89px;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #ffffff;
+    position: absolute;
+  }
+  .nav-menu-mobile,
+  .logout-mobile-btn {
+    display: none;
+  }
+  .website-logo {
+    height: 41.00050354003906px;
+    width: 133px;
+    left: 150px;
+    top: 24px;
+    border-radius: 0px;
+    bottom: 24px;
+    position: absolute;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .home {
+    height: 24px;
+    width: 46px;
+    left: 1019px;
+    top: 33px;
+    position: absolute;
+
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .nav-menu {
+    list-style-type: none;
+  }
+  .shelves {
+    height: 24px;
+    width: 46px;
+    left: 1089px;
+    top: 33px;
+    position: absolute;
+
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .logout-desktop-btn {
+    height: 32px;
+    width: 73px;
+    left: 1217px;
+    top: 29px;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #0284c7;
+    border-radius: 4px;
+    color: #f8fafc;
+    right: 150px;
+    border-width: 0px;
+    cursor: pointer;
+  }
+  .blue {
+    color: #0284c7;
+  }
+  .grey {
+    color: #64748b;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav-header {
+    height: 56px;
+    width: 360px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #ffffff;
+  }
+  .nav-content,
+  .website-logo {
+    display: none;
+  }
+  .nav-bar-image {
+    height: 24.002347946166992px;
+    width: 92px;
+    left: 24px;
+    top: 16px;
+    border-radius: 0px;
+    position: absolute;
+  }
+  .hamburger-btn {
+    color: #475569;
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    left: 320px;
+    top: 20px;
+    right: 20px;
+    border-radius: 0px;
+    position: absolute;
+  }
+  .nav-list-mobile {
+    list-style-type: none;
+    top: 60px;
+    position: absolute;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+
+    background: #f5f7fa;
+    width: 100vw;
+    height: 100vh;
+    left: -20px;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .home-mobile,
+  .shelves-mobile {
+    color: #64748b;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+  }
+  .logout-mobile-btn {
+    height: 32px;
+    width: 73px;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #0284c7;
+    border-radius: 4px;
+    color: #f8fafc;
+    border-width: 0px;
+  }
+  .blue {
+    color: #0284c7;
+  }
+  .grey {
+    color: #64748b;
+  }
+  .close-btn {
+    background-color: transparent;
+    border-width: 0px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .close-list {
+  }
+}

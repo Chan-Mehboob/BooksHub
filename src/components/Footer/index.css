@@ -1,0 +1,115 @@
+@media (min-width: 361px) {
+  .footer-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #f5f7fa;
+    width: 100%;
+
+    left: 0px;
+    position: fixed;
+    bottom: 0;
+    height: 140px;
+  }
+  .footer-sec {
+    height: 21px;
+    width: 145px;
+    left: 647px;
+
+    display: flex;
+    justify-content: space-between;
+    bottom: 16px;
+  }
+  .footer-btn {
+    font-family: Font Awesome 5 Brands;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 21px;
+    width: 18px;
+    left: 647px;
+    top: 899px;
+    background-color: transparent;
+    border-width: 0px;
+    color: #3d3c3c;
+  }
+  .contact-us {
+    height: 24px;
+    width: 80px;
+    left: 685px;
+    top: 936px;
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    right: 681px;
+    bottom: 64px;
+    color: #3d3c3c;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+    padding-bottom: 30px;
+  }
+  .footer-sec {
+    height: 16px;
+    width: 111px;
+    left: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-btn {
+    font-family: Font Awesome 5 Brands;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: transparent;
+    border-width: 0px;
+    color: #3d3c3c;
+    height: 16px;
+    width: 14px;
+    left: 125px;
+    height: 32px;
+    width: 87px;
+    top: 228px;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+
+    bottom: 34px;
+  }
+  .contact-us {
+    color: #3d3c3c;
+    height: 16px;
+    width: 60px;
+    left: 160px;
+    top: 581px;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-style: normal;
+  }
+}

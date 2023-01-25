@@ -1,0 +1,265 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 361px) {
+  .slick-container {
+    width: 87%;
+    max-width: 1100px;
+    top: 100px;
+    position: absolute;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  .slick-heading {
+    height: 32px;
+    width: 195px;
+    left: 71px;
+    top: 20px;
+    position: absolute;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    bottom: 356px;
+  }
+  .find-books-btn-desktop {
+    height: 36px;
+    width: 104px;
+    left: 1065px;
+    top: 36px;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    background: #0284c7;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f8fafc;
+    cursor: pointer;
+    border-width: 0px;
+    bottom: 71px;
+  }
+
+  .slick-item {
+    height: 292px;
+    width: 350px;
+    border-radius: 4px;
+    top: 409px;
+  }
+  .cover-pic {
+    height: 224px;
+    width: 340px;
+    top: 409px;
+    border-radius: 4px;
+  }
+  .title {
+    height: 32px;
+
+    left: 282px;
+    top: 649px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #334155;
+  }
+  .author-name {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #475569;
+    margin-top: -10px;
+  }
+  .loader-container,
+  .failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  .failure-img {
+    height: 170.001708984375px;
+    width: 346.9999084472656px;
+    left: 547px;
+    top: 419px;
+    border-radius: 0px;
+  }
+  .failure-desc {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #475569;
+  }
+  .try-again-btn {
+    cursor: pointer;
+    background: #0284c7;
+    color: #ffffff;
+    border-width: 0px;
+
+    text-align: center;
+    height: 32px;
+    width: 75px;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    font-family: Inter;
+    font-size: 9.33333px;
+
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+  .failure-img-mobile {
+    display: none;
+  }
+  .slider-footer {
+    list-style-type: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .slider-footer {
+    list-style-type: none;
+
+    width: 95%;
+    margin-left: -10px;
+  }
+  .find-books-btn-desktop {
+    display: none;
+  }
+  .slick-container {
+    top: 25px;
+    width: 100%;
+    position: absolute;
+  }
+  .slick-heading {
+    height: 32px;
+    width: 195px;
+    left: 24px;
+    position: absolute;
+    top: 0px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    right: 206px;
+    bottom: 316px;
+  }
+  .cover-pic {
+    height: 99px;
+    width: 146px;
+    top: 409px;
+    border-radius: 4px;
+  }
+  .slick-prev:before {
+    color: black;
+    width: 16px;
+    height: 16px;
+    bottom: 20px;
+    position: absolute;
+    left: 0px;
+  }
+  .slick-next:before {
+    color: black;
+    width: 16px;
+    height: 16px;
+    bottom: 20px;
+    position: absolute;
+    right: 5px;
+  }
+  .title {
+    color: #334155;
+    height: 16px;
+    left: 69px;
+    top: 443px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .author-name {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #475569;
+    margin-top: -5px;
+  }
+  .failure-container,
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-img {
+    display: none;
+  }
+  .failure-img-mobile {
+    height: 120.00047302246094px;
+    width: 243.77757263183594px;
+    left: 58.111328125px;
+    top: 56px;
+    bottom: 110px;
+    border-radius: 0px;
+    left: 16.14%;
+  }
+  .failure-desc {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #475569;
+    top: 200px;
+    left: 64px;
+  }
+  .try-again-btn {
+    cursor: pointer;
+    background: #0284c7;
+    color: #ffffff;
+    border-width: 0px;
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    height: 32px;
+    width: 87px;
+    left: 0px;
+    top: 228px;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+  }
+  .slick-item {
+  }
+}
