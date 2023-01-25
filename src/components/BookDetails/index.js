@@ -1,6 +1,5 @@
 import Cookies from 'js-cookie'
 import {Component} from 'react'
-import {Redirect} from 'react-router-dom'
 import Loader from 'react-loader-spinner'
 import {BsFillStarFill} from 'react-icons/bs'
 
@@ -155,11 +154,6 @@ class BookDetails extends Component {
   }
 
   render() {
-    const jwtToken = Cookies.get('jwt_token')
-    if (jwtToken === undefined) {
-      return <Redirect to="/login" />
-    }
-
     return (
       <div className="book-detail-page">
         <Header />

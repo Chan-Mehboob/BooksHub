@@ -1,6 +1,5 @@
 import Cookies from 'js-cookie'
 import {Component} from 'react'
-import {Redirect} from 'react-router-dom'
 import {BsSearch} from 'react-icons/bs'
 import Loader from 'react-loader-spinner'
 
@@ -178,10 +177,7 @@ class Bookshelves extends Component {
 
   render() {
     const {shelf} = this.state
-    const jwtToken = Cookies.get('jwt_token')
-    if (jwtToken === undefined) {
-      return <Redirect to="/login" />
-    }
+
     const shelfHeading = bookshelvesList.filter(each => each.value === shelf)
 
     return (
