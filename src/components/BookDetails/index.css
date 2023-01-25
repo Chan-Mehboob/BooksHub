@@ -1,18 +1,17 @@
 @media (min-width: 361px) {
   .book-detail-page {
     background: #f5f7fa;
-    width: 100vw;
+    min-width: 1440px;
+    max-width: 2000px;
     height: 1100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .book-details-card {
     height: 726px;
     width: 1140px;
-    left: 150px;
-    top: 153px;
+    margin-left: 150px;
+    margin-top: 153px;
     border-radius: 16px;
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
       0px 1px 2px rgba(96, 97, 112, 0.16);
@@ -131,16 +130,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    width: 60vw;
+    height: 80vh;
+    min-width: 1440px;
   }
 }
 
 @media (max-width: 360px) {
   .book-detail-page {
     background: #f5f7fa;
-    width: 100vw;
+
+    width: 360px;
     height: 100%;
+  }
+  .book-item-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
   }
   .book-cover-detail {
     height: 274px;
@@ -160,7 +166,7 @@
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
     color: #334155;
   }
   .book-right-details-detail {

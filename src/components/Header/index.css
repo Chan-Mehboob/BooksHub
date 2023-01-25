@@ -1,12 +1,13 @@
 @media (min-width: 361px) {
   .nav-header {
     height: 89px;
-    width: 100vw;
+    min-width: 361px;
+    max-width: 2000px;
     left: 0px;
     top: 0px;
+    right: 0px;
     border-radius: 0px;
     background: #ffffff;
-    position: absolute;
   }
   .nav-menu-mobile,
   .logout-mobile-btn {
@@ -110,16 +111,17 @@
   }
   .nav-list-mobile {
     list-style-type: none;
-    top: 60px;
-    position: absolute;
+    margin-top: 70px;
+
     text-align: left;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     background: #f5f7fa;
-    width: 100vw;
+    max-width: 360px;
+    min-width: 200px;
     height: 100vh;
-    left: -20px;
+    padding-top: 20px;
   }
   .nav-link {
     text-decoration: none;
@@ -163,5 +165,6 @@
     cursor: pointer;
   }
   .close-list {
+    margin-right: 30px;
   }
 }
